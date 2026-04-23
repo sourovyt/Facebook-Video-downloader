@@ -1,0 +1,4 @@
+pyTelegramBotApi
+yt-dlp
+Flask
+requests
