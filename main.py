@@ -130,6 +130,4 @@ def download_video(message):
 if __name__ == "__main__":
     keep_alive()
     print("Bot is running...")
-
-    bot.remove_webhook()
     bot.infinity_polling()
