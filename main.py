@@ -39,13 +39,13 @@ def start(message):
     markup = InlineKeyboardMarkup()
 
     markup.add(
-        InlineKeyboardButton("📢 SUBSCRIBE CHANNEL", url=YOUTUBE_LINK)
+        InlineKeyboardButton("📢 SUBSCRIBE CHANNEL", url=@CreativeSpark1)
     )
     markup.add(
         InlineKeyboardButton("🎬 ALL TUTORIALS", url=YOUTUBE_LINK)
     )
     markup.add(
-        InlineKeyboardButton("👤 CONTACT OWNER", url=SUPPORT_LINK)
+        InlineKeyboardButton("👤 CONTACT OWNER", url=@ShahriarRazz143)
     )
 
     welcome_text = """
