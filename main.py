@@ -7,7 +7,7 @@ from flask import Flask
 from threading import Thread
 
 # ================== CONFIG ==================
-BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"
+BOT_TOKEN = "8621986845:AAE-iTAWwH0aTQKX_6np6JIB_mfVU7HhfXM"
 bot = telebot.TeleBot(BOT_TOKEN)
 
 # Decode secured links
