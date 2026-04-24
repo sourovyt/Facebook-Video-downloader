@@ -25,8 +25,7 @@ def start(message):
     markup.add(
         InlineKeyboardButton("📢 SUBSCRIBE CHANNEL", url="https://t.me/CreativeSpark1")
     )
-    markup.add(
-        InlineKeyboardButton("🎬 ALL TUTORIALS", url=YOUTUBE_LINK)
+    
     )
     markup.add(
         InlineKeyboardButton("👤 CONTACT OWNER", url="https://t.me/ShahriarRazz143")
