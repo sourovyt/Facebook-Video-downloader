@@ -5,7 +5,7 @@ import os
 import base64
 
 # ================== CONFIG ==================
-BOT_TOKEN = "PASTE_YOUR_NEW_TOKEN_HERE"
+BOT_TOKEN = "8621986845:AAE-iTAWwH0aTQKX_6np6JIB_mfVU7HhfXM"
 bot = telebot.TeleBot(BOT_TOKEN)
 
 # Decode secured links
