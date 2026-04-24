@@ -25,8 +25,7 @@ def start(message):
     markup.add(
         InlineKeyboardButton("📢 SUBSCRIBE CHANNEL", url="https://t.me/CreativeSpark1")
     )
-    
-    )
+
     markup.add(
         InlineKeyboardButton("👤 CONTACT OWNER", url="https://t.me/ShahriarRazz143")
     )
@@ -55,6 +54,14 @@ def start(message):
 @bot.message_handler(func=lambda message: True)
 def download_video(message):
     url = message.text.strip()
+
+    # ✅ ADDED VALIDATION ONLY
+    if "http" not in url:
+        bot.reply_to(
+            message,
+            "❌ Please send a valid Facebook or Instagram video link."
+        )
+        return
 
     status_msg = bot.reply_to(message, "🔍 Analyzing...")
 
@@ -104,7 +111,7 @@ def download_video(message):
             status_msg.message_id
         )
 
-# ================== MAIN (RENDER FIX) ==================
+# ================== MAIN ==================
 if __name__ == "__main__":
     print("Bot is running...")
 
